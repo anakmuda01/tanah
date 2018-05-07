@@ -150,6 +150,8 @@
             ).then((result) => {
               if (result.value){
                 $('#form-delete'+idbtn).submit();
+              }else{
+                $('#form-delete'+idbtn).submit();
               }
             })
           } else if (

@@ -26,10 +26,10 @@
               <td class="col"> {{$item->tanah->no_kavling}} </td>
               <td class="col"> {{$item->tanah->harga_kavling}} </td>
               <td class="col text-center">
-                <form id="form-delete" method="POST" action="/hapus-kavling/{{$kredit->id}}/{{$item->tanah->no_kavling}}/{{$item->id}}">
+                <form id="form-delete{{$item->id}}" method="POST" action="/hapus-kavling/{{$kredit->id}}/{{$item->tanah->no_kavling}}/{{$item->id}}">
                   {{ csrf_field() }}
                   <input type="hidden" name="_method" value="DELETE">
-                  <button id="" btn-name="" class="hapus-btn btn btn-danger">Hapus</button>
+                  <button gol="Tanah no Kavling" id="{{$item->id}}" btn-name="{{$item->tanah->no_kavling}}" class="hapus-btn btn btn-danger">Hapus</button>
                 </form>
               </td>
             </tr>

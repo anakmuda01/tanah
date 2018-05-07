@@ -116,6 +116,8 @@
                ).then((result) => {
                  if (result.value){
                    $('#form-bayar').submit();
+                 }else{
+                   $('#form-bayar').submit();
                  }
                })
              } else if (
