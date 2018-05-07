@@ -1,0 +1,56 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.datepicker{
+  padding-left: 1.2em !important;
+}
+input[readonly].id-kredit{
+  background-color:transparent;
+  font-size: 1em;
+}
+.span-input{
+  width: 10em;
+}
+.garis{
+  border-top: 1em solid #afbcc6;
+  border-bottom: 1em solid #eff2f6;
+  height: 0;
+}
+.swal-overlay {
+  background-color: rgba(32, 34, 34, 0.75);
+}
+.swal-button--cancel {
+  background-color: #15e45b;
+}
+.swal-text {
+  background-color: #FEFAE3;
+  padding: 17px;
+  border: 1px solid #F0E1A1;
+  display: block;
+  margin: 22px;
+  text-align: center;
+  color: #fc0606;
+  font-size: 24px;
+}
+.swal-content span{
+  color: red;
+}
+.tombol-hps{
+  margin-left: 1em;
+}
+.judul-bayar{
+  color: red;
+}
+.psn-warning{
+  background-color: #FEFAE3;
+  padding: 17px;
+  border: 1px solid #F0E1A1;
+  display: block;
+  margin: 22px;
+  text-align: center;
+  color: rgb(208, 54, 20);
+  font-weight: bold;
+  font-style: italic;
+}
